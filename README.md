@@ -96,3 +96,7 @@ mvn archetype:generate -DgroupId=com.yourname -DartifactId=repo_name-DarchetypeA
 11. git add
 12. git push -u origin main
 13. Go to pom.xml
+    git config --global user.email "amithag825@gmail.com"
+  git config --global user.name "Amitha825"
+
+
