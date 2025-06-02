@@ -30,7 +30,7 @@ plugins {
     id 'java'
 }
 
-group = 'program4.prog4.example'
+group = 'program4.prog4'
 version = '1.0-SNAPSHOT'
 
 repositories {
