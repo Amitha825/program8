@@ -1,6 +1,6 @@
 
 
-package com.example;
+package program4.prog4;
 
 public class App {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class App {
 
 maven:-
 mvn clean install
-mvn exec:java -Dexec.mainClass="com.example.App"
+mvn exec:java -Dexec.mainClass="program4.prog4.App"
 
 gradle:-
 
@@ -30,7 +30,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.example'
+group = 'program4.prog4.example'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -42,7 +42,7 @@ dependencies {
 }
 
 task run(type: JavaExec) {
-    main = 'com.example.App'
+    main = 'program4.prog4.App'
     classpath = sourceSets.main.runtimeClasspath
 }
 
